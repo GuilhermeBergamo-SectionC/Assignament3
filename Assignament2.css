@@ -1,0 +1,201 @@
+
+@font-face {
+	font-family: 'Cyberfont'; /* This is the name you'll use to reference the font */
+	src: url('/Labs_assignaments/cyberpunk-css-main/fonts/Cyberpunk.otf') format('opentype'); /* Correct format */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Cyberfont2'; /* This is the name you'll use to reference the font */
+	src: url('/Labs_assignaments/cyberpunk-css-main/fonts/BlenderProBook.woff2') format('opentype'); /* Correct format */
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  
+  
+  .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	height: 120px;
+	padding: 0 20px;
+	color: yellow;
+  }
+  
+  .nav-section {
+	display: flex;
+	align-items: center;
+  }
+  
+  .left .nav-text {
+	font-size: 20px;
+	font-weight: bold;
+	
+  }
+  
+  .left .cyber-glitch-0 {
+	height: 100px; /* Adjust the size of your logo */
+	width: auto;
+	margin-left: 50px;
+  }
+  
+  .right .nav-link {
+	text-decoration: none;
+	color: yellow;
+	font-size: 18px;
+	margin-left: 30px;
+	transition: color 0.3s;
+  }
+  
+  .right .nav-link:hover {
+	color: #ddd;
+  }
+  h2{
+	font-family: Cyberfont;
+	font-size: 80px;
+	color: yellow;
+  }
+  body{
+	font-family:Cyberfont2 ;
+	height: 100%;
+	background-color: yellow;
+  }
+  
+  
+  h1{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 50px;
+
+  }
+  .carousel-item {
+	height: 42rem;
+	position: relative;
+	
+	background-position: center;
+	background-size: cover;
+	color: rgb(196, 206, 122);
+	font-size: 20px;
+
+  }
+  .container1{
+	position: absolute;
+	bottom: 0;
+	right: 5rem;
+	left: 5rem;
+	padding-bottom: 20px;
+	
+  }
+  .custom-carousel {
+	position: relative; /* Changed from absolute to relative for better control over positioning */
+	margin-top: 105px;
+	margin-left: 20px; /* Adjust as needed for the left margin */
+	height: 300px; /* Height of the entire carousel */
+	
+  }
+  
+  
+  
+  .custom-carousel {
+    position: relative; /* Changed from absolute to relative for better control over positioning */
+    margin-top: 105px;
+    margin-left: 20px; /* Adjust as needed for the left margin */
+    height: 300px; /* Height of the entire carousel */
+}
+
+#enhancementsCarousel .carousel-inner {
+    height: 820px;
+    width: 950px;
+}
+
+#enhancementsCarousel .carousel-control-prev,
+#enhancementsCarousel .carousel-control-next {
+    top: 50%; /* Aligns buttons vertically to the middle of the image */
+    transform: translateY(-50%); /* Adjusts the alignment to be exactly in the middle */
+    z-index: 2; /* Ensures the controls are above the carousel items */
+}
+
+#enhancementsCarousel .carousel-indicators {
+    position: absolute;
+    bottom: -378px; /* Adjust this value if needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+    width: auto;
+    padding-left: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    list-style: none;
+    text-align: center;
+	left: 500px;
+}
+
+#enhancementsCarousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: 0px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+#enhancementsCarousel .carousel-indicators .active {
+    opacity: 1;
+}
+
+
+.custom {
+    margin-top: 120px;
+}
+.cyber-tile{
+	margin-left: 980px;
+	background-color: black;
+	height: 100px;
+	margin-top: -275px;
+	height: 420px;
+	width: 525px;
+	color: yellow;
+	font-size: 25px;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px; /* Adjusts the space between elements */
+	margin-top: 500px;
+  }
+  
+  .cyber-input, .cyber-select, .cyber-button-small {
+	width: 100%; /* Ensures all children take up the same width */
+	max-width: 500px; /* Adjust this value based on your design needs */
+  }
+  
+  .cyber-select p, .cyber-select select, .cyber-input input, .cyber-button-small {
+	width: 100%; /* Ensures the select, input, and button fill their parent's width */
+  }
+	
+  
+  .cyber-input{
+	margin-top: 50px;
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+	
